@@ -16,6 +16,7 @@ uv sync
 ```
 
 This will create a virtual environment .venv and install all dependencies.
+
 3. Start the proxy server:
 ```bash
 uv run uvicorn src.main:app --reload --host 0.0.0.0 --port 8080
