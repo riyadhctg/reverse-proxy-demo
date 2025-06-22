@@ -145,7 +145,7 @@ There are three main external dependencies:
 * Horizontal Scaling: Run multiple instances behind a production-grade load balancer (e.g., AWS ELB).
 * Concurrency: Use multiple Uvicorn workers for better concurrency e.g., ```uvicorn --workers 4 ...```
 * Deployment: Package as a container image and deploy via cloud platforms like AWS ECS or EKS.
-•* Load Balancing: Replace random selection with a more robust strategy like round-robin.
+* Load Balancing: Replace random selection with a more robust strategy like round-robin.
 * Health Checks: Incorporate health/unhealth checks of target servers.
 * Service Discovery: Replace hardcoded SERVICE_REGISTRY with dynamic service discovery (e.g., Consul).
 * Observability: Integrate logging and monitoring (Grafana, OpenTelemetry, ELK).
