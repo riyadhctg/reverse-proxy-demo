@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# macOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# Python egg info
+*.egg-info/
+dist/
+build/
+
+# Test cache
+.pytest_cache/
+
+# MyPy / coverage / logs
+.mypy_cache/
+coverage.xml
+htmlcov/
+*.log
+
+# dotenv files (often hold secrets)
+.env
+.env.*
+
+# Compiled files or local database
+*.db
+*.sqlite3
+
+# FastAPI OpenAPI cache (if used)
+openapi.json
+
+# Jupyter / IPython notebooks (optional)
+.ipynb_checkpoints/
+
+# Misc
+*.bak
+*.swp
