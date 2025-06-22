@@ -22,6 +22,7 @@ This will create a virtual environment .venv and install all dependencies.
 uv run uvicorn src.main:app --reload --host 0.0.0.0 --port 8080
 ```
 The server will be available at http://localhost:8080
+
 4. In another terminal, run the following inline Python script (GPT generated) to start a mock backend server. This simulates multiple servers via endpoint suffixes and runs on http://localhost:8000:
 
 ```bash
