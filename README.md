@@ -129,9 +129,9 @@ curl http://localhost:8080/items/unknown \
 ## Design Decisions
 To demonstrate a basic HTTP reverse proxy server, a load balancer use case was chosen.
 
-The scope was intentionally kept minimal to avoid over-engineering for a take-home assessment. For example:
+The scope was intentionally kept minimal to avoid over-engineering for a toy example. For instance:
 * Load balancing uses simple random selection of servers.
-* Target servers are simulated via one server using multiple endpoints (serverA, serverB, serverC), generated using GPT in inline python -c format for reviewer convenience.
+* Target servers are simulated via one server using multiple endpoints (serverA, serverB, serverC), generated using GPT in inline python -c format 
 * Logging and tracing are excluded to maintain simplicity.
 * Only a minimal, functional reverse proxy is demonstrated—without additional features like rate limiting or retries.
 
